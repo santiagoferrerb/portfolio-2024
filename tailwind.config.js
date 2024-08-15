@@ -58,7 +58,7 @@ export default {
       borderRadius: { 40: "40px" },
       boxShadow: { "3xl": "0px 10px 30px 0px rgba(0, 0, 0, 0.15)" },
       screens: {
-        desktop: "1248px",
+        desktop: "1450px",
         tablet: "960px",
       },
       colors: {

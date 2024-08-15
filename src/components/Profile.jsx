@@ -22,10 +22,10 @@ function Profile({img, name, job, exp, text, animation, icon, isYear, isExpandab
       </div>
       <div className={`flex-1 text-white flex flex-col justify-center gap-1 ${!expanded && isExpandable ? 'hidden' : 'w-full'}`}>
         <p className={text}>{name}</p>
-        <div className="z-10 max-h-[80px] flex gap-1 items-center">
+        <div className="z-10 max-h-[80px] flex flex-wrap gap-1 items-center">
           <div
             className={cn(
-              "group rounded-full border border-black/5 bg-neutral-100 text-base text-white transition-all ease-in pointer-events-none hover:bg-neutral-200 dark:border-white/10 dark:bg-neutral-800 dark:hover:bg-neutral-800"
+              "group h-[32px] rounded-full border border-black/5 bg-neutral-100 text-base text-white transition-all ease-in pointer-events-none hover:bg-neutral-200 dark:border-white/10 dark:bg-neutral-800 dark:hover:bg-neutral-800"
             )}
           >
             <AnimatedShinyText className="inline-flex gap-1 items-center justify-center px-3 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
@@ -36,7 +36,7 @@ function Profile({img, name, job, exp, text, animation, icon, isYear, isExpandab
 
           <div
             className={cn(
-              "group rounded-full border border-black/5 bg-neutral-100 text-base text-white transition-all ease-in pointer-events-none hover:bg-neutral-200 dark:border-white/10 dark:bg-neutral-800 dark:hover:bg-neutral-800"
+              "group h-[32px] rounded-full border border-black/5 bg-neutral-100 text-base text-white transition-all ease-in pointer-events-none hover:bg-neutral-200 dark:border-white/10 dark:bg-neutral-800 dark:hover:bg-neutral-800"
             )}
           >
             <AnimatedShinyText className="flex flex-col gap-0 items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">

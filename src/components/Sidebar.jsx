@@ -9,9 +9,9 @@ function Sidebar({ children }) {
 
   return (
     <aside className={`h-full flex-none z-20 ${expanded ? "w-96" : "w-auto "}`}>
-      <div className="h-full bg-gray-100 rounded-[32px] border-y border-x border-white border-opacity-40 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 flex flex-col items-center justify-center p-4 gap-4">
+      <div className="h-full bg-gray-100 rounded-[20px] border-y border-x border-white border-opacity-40 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 flex flex-col items-center justify-center p-4 gap-4">
         <div
-          className={`flex items-center h-[100px] w-full rounded-2xl bg-gray-100 bg-opacity-10 ${
+          className={`flex items-center border-[1px] border-white border-opacity-20 h-[100px] w-full rounded-2xl bg-gray-100 bg-opacity-10 ${
             expanded ? "rounded-2xl" : "rounded-full"
           }`}
         >

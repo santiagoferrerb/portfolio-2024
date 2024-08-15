@@ -1,4 +1,3 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./pages/App/App.jsx";
 import "./index.css";
@@ -22,12 +21,12 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/projects",
-        element: <Projects />,
-      },
-      {
         path: "/skills",
         element: <Skills />,
+      },
+      {
+        path: "/projects",
+        element: <Projects />,
       },
       {
         path: "/contact",
