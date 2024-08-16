@@ -69,7 +69,7 @@ function Home() {
                   exp="2016-2021"
                   text="text-body-large"
                   icon={<GraduationCap size={18} />}
-                  img="/eia.png"
+                  img="./eia.png"
                 />
                 <Profile
                   name="Diploma of Digital Marketing and Analytics"
@@ -77,7 +77,7 @@ function Home() {
                   exp="2021-2022"
                   text="text-body-large"
                   icon={<GraduationCap size={18} />}
-                  img="/eia.png"
+                  img="./eia.png"
                 />
                 <Profile
                   name="Full Stack Developer with JS (+15 Courses)"
@@ -85,7 +85,7 @@ function Home() {
                   exp="2023-2024"
                   text="text-body-large"
                   icon={<GraduationCap size={18} />}
-                  img="/platzi.png"
+                  img="./platzi.png"
                 />
               </div>
             </div>
@@ -115,7 +115,7 @@ function Home() {
               exp="2022-Present"
               text="text-body-large"
               icon={<BriefcaseBusiness size={16} />}
-              img="/freelance.jpg"
+              img="./freelance.jpg"
             />
             <Profile
               name="Co-Founder"
@@ -123,7 +123,7 @@ function Home() {
               exp="2022-2024"
               text="text-body-large"
               icon={<BriefcaseBusiness size={16} />}
-              img="/vuur.png"
+              img="./vuur.png"
             />
             <Profile
               name="Business Developer LATAM"
@@ -131,7 +131,7 @@ function Home() {
               exp="2021-2023"
               text="text-body-large"
               icon={<BriefcaseBusiness size={16} />}
-              img="/opalytica_logo.jpeg"
+              img="./opalytica_logo.jpeg"
             />
 
             <Profile
@@ -140,7 +140,7 @@ function Home() {
               exp="2020-2021"
               text="text-body-large"
               icon={<BriefcaseBusiness size={16} />}
-              img="/postobon.png"
+              img="./postobon.png"
             />
           </div>
         </div>

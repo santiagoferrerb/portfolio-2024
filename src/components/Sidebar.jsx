@@ -2,7 +2,6 @@ import { ArrowLeft, ArrowRight, Award } from "lucide-react";
 import Profile from "./Profile";
 import { useContext } from "react";
 import { Context } from "../context";
-import Divider from "./Divider";
 
 function Sidebar({ children }) {
   const { expanded, setExpanded } = useContext(Context);
@@ -23,7 +22,7 @@ function Sidebar({ children }) {
             animation
             icon={<Award size={18}/>}
             isYear
-            img="/Imagen.jpg"
+            img="./Imagen.jpg"
             isExpandable
           />
           <span
